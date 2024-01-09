@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+</head>
+<body>
+    <div class="wrapper" >
+        <div class="fromwrap sign-in" id="sa">
+            <form action="">
+                <h2>Login</h2>
+                <div class="inpu-group" >
+                    <input type="text" required>
+                    <label for="">Username</label>
+                </div>
+                <div class="inpu-group">
+                    <input type="password" required>
+                    <label for="">Password</label>
+                </div>  
+                <div class="remember">
+                    <input type="checkbox" >
+                    <label for="">Remember Me</label>
+                </div>
+                <button type="submit">Login</button>
+                <div class="signUp-link" >
+                    <p>Don't have an account?<a href="#si" class="signUpBtn">sign-up</a></p>
+                </div>
+            </form>
+        </div>
+        <div class="fromwrap sign-up">
+            <form action="">
+                <h2>Sign up</h2>
+                <div class="inpu-group">
+                    <input type="text" required>
+                    <label for="">Username</label>  
+                </div>
+                <div class="inpu-group">
+                    <input type="email" required>
+                    <label for="">Email</label>  
+                </div>
+                <div class="inpu-group">
+                    <input type="password" required>
+                    <label for="">Password</label>
+                </div>  
+                <div class="remember">
+                    <input type="checkbox" >
+                    <label for="">I agree te terms and conditions</label>
+                </div>
+                <button type="submit">sign-up</button>
+                <div class="signUp-link" id="si">
+                    <p>Already have an account? <a href="#sa" class="signInBtn">sign-In</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
